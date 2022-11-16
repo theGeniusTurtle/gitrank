@@ -1,0 +1,12 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#Public API
+GET /org/:org/contributors          controllers.GitController.getContributors(org: String)
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+
+      
